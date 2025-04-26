@@ -1,9 +1,0 @@
-.body {
-    display: grid;
-    grid-template-columns: 25px auto 25px;
-    grid-template-rows: 25px repeat(7, 1fr) 25px;
-}
-
-.header {
-    align-content: space-between;
-}
