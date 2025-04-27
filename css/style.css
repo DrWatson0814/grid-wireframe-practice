@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-template-columns: 25px auto 25px;
+    grid-template-rows: 25px 50px 50px auto 50px 50px 25px;
+    gap: 10px;
+}
+
+.header {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-items: center;
+}
+
+#top-aside {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+} 
