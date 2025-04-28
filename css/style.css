@@ -23,7 +23,6 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 25px auto 25px;
-    grid-template-rows: ;
     justify-items:center;
     align-items: center;
     grid-column: 2 / 3;
