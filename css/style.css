@@ -11,20 +11,32 @@ body {
     justify-items: center;
     border-radius: 5px;
     background-color: #9f2063;
+    justify-items: center;
+    align-content: center;    
+    color: white;
 }
 
 #top-aside {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     border-radius: 5px;
-    background-color: #116395
+    background-color: #116395;
+    justify-items: center;
+    align-content: center;    
+    color: white;
 } 
 
 .grid-container {
     display: grid;
     grid-template-columns: 25px auto 25px;
-    justify-items:center;
-    align-items: center;
+    grid-template-rows: 5px 1fr 1fr 1fr 5px;
+    grid-template-areas: 
+        ". none  ." 
+        ". item1 ."
+        ". item2 ."
+        ". item3 .";
+   
+    row-gap: 10px ;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     border-radius: 5px;
@@ -36,6 +48,9 @@ body {
     grid-row: 5 / 6;
     border-radius: 5px;
     background-color: #25a4b5;
+    justify-items: center;
+    align-content: center;    
+    color: white;
 }
 
 .foot {
@@ -43,4 +58,37 @@ body {
     grid-row: 6 / 7;
     border-radius: 5px;
     background-color: #e06b26;
+    justify-items: center;
+    align-content: center;    
+    color: white;
+}
+
+
+.item1 {
+    background-color: #e4195b;
+    border-radius: 5px;
+    grid-area: item1;
+    justify-items: center;
+    align-content: center;    
+    color: white;
+}
+
+
+.item2 {
+    background-color: #e4195b;
+    border-radius: 5px;
+    grid-area: item2;
+    justify-items: center;
+    align-content: center;    
+    color: white;
+}
+
+
+.item3 {
+    background-color: #e4195b;
+    border-radius: 5px;
+    grid-area: item3;
+    justify-items: center;
+    align-content: center;    
+    color: white;
 }
