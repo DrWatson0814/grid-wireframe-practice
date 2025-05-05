@@ -92,3 +92,10 @@ body {
     align-content: center;    
     color: white;
 }
+
+
+@media (min-width: 875px) {
+    body {
+        
+    }
+}
